@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#060a13" />
+    <meta name="description" content="Uma sessão especial de A Odisseia, em 16 de julho de 2026, às 20h40." />
+    <title>Alanis, aceita este convite? | A Odisseia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <div class="film-grain" aria-hidden="true"></div>
+      <div class="projector-beam" aria-hidden="true"></div>
+
+      <section class="opening" id="opening" aria-label="Abertura cinematográfica">
+        <div class="curtain curtain--left" aria-hidden="true"></div>
+        <div class="curtain curtain--right" aria-hidden="true"></div>
+        <div class="opening__content">
+          <div class="studio-mark" aria-hidden="true"><span>W</span></div>
+          <p class="eyebrow">WALISSON PICTURES APRESENTA</p>
+          <h1>Uma sessão<br /><em>especial</em></h1>
+          <div class="opening-rule">
+            <span class="tulip" aria-hidden="true"><span class="tulip__flower"><i></i><b></b><em></em></span><span class="tulip__stem"></span><span class="tulip__leaf tulip__leaf--left"></span><span class="tulip__leaf tulip__leaf--right"></span></span>
+            <span></span>
+          </div>
+          <p class="opening-copy">Exibição única • feita especialmente para Alanis</p>
+          <button class="start-button" id="startButton" type="button">
+            <span class="play-triangle" aria-hidden="true"></span>
+            Começar a sessão
+          </button>
+          <p class="sound-note">Ative o som para a experiência completa</p>
+        </div>
+      </section>
+
+      <section class="countdown" id="countdown" aria-live="polite" hidden>
+        <div class="countdown__rings"><span id="countdownNumber">3</span></div>
+        <p>THE FEATURE IS ABOUT TO BEGIN</p>
+      </section>
+
+      <section class="invitation" id="invitation" hidden>
+        <nav class="topbar" aria-label="Informações da sessão">
+          <span class="brand">WALISSON <i>PICTURES</i></span>
+          <span class="showtime">SESSÃO • 16 JUL 2026</span>
+        </nav>
+
+        <div class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow gold">UM CONVITE PARA ALANIS</p>
+            <h2>Um filme.<br />Uma quinta.<br /><em>Uma Odisseia.</em></h2>
+            <p class="hero-text">Prepare-se para atravessar mares, enfrentar mitos e evitar spoilers em escala épica.</p>
+            <div class="tulip-note">
+              <span class="tulip" aria-hidden="true"><span class="tulip__flower"><i></i><b></b><em></em></span><span class="tulip__stem"></span><span class="tulip__leaf tulip__leaf--left"></span><span class="tulip__leaf tulip__leaf--right"></span></span>
+              <span>As tulipas não aparecem no elenco,<br />mas fizeram questão de estar aqui.</span>
+              <span class="tulip" aria-hidden="true"><span class="tulip__flower"><i></i><b></b><em></em></span><span class="tulip__stem"></span><span class="tulip__leaf tulip__leaf--left"></span><span class="tulip__leaf tulip__leaf--right"></span></span>
+            </div>
+          </div>
+
+          <div class="envelope-scene" aria-label="Ingresso saindo de um envelope">
+            <div class="ticket">
+              <div class="ticket__stub"><span>ADMIT</span><strong>ONE</strong><small>16 JUL</small></div>
+              <div class="ticket__body">
+                <div class="ticket__top"><span>EXIBIÇÃO ESPECIAL</span><b>01</b></div>
+                <p>CONVITE OFICIAL</p>
+                <h3>A ODISSEIA</h3>
+                <div class="ticket__details">
+                  <span><small>DATA</small><strong>16 JUL 2026</strong></span>
+                  <span><small>HORÁRIO</small><strong>20H40</strong></span>
+                </div>
+                <div class="ticket__venue"><small>LOCAL</small><strong>UCI SHOPPING NEW YORK</strong></div>
+                <div class="barcode" aria-hidden="true"></div>
+                <div class="ticket__footer"><span>ALANIS</span><span>MISSÃO: CHEGAR ÀS 20H40</span></div>
+              </div>
+            </div>
+            <div class="envelope">
+              <div class="envelope__back"></div>
+              <div class="envelope__paper">
+                <span>Para Alanis</span>
+                <span class="tulip" aria-hidden="true"><span class="tulip__flower"><i></i><b></b><em></em></span><span class="tulip__stem"></span><span class="tulip__leaf tulip__leaf--left"></span><span class="tulip__leaf tulip__leaf--right"></span></span>
+              </div>
+              <div class="envelope__front"></div>
+              <div class="envelope__flap"></div>
+              <div class="wax-seal">W</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <div class="question-copy">
+            <span class="scene-number">CENA<br /><strong>01</strong></span>
+            <div><p>MISSÃO CINEMATOGRÁFICA</p><h3>Alanis, topa encarar essa Odisseia?</h3></div>
+          </div>
+          <div class="actions" id="actions" aria-live="polite">
+            <span class="director-note" id="directorNote" hidden></span>
+            <button class="yes-button" id="yesButton" type="button">Sim, partiu <span>→</span></button>
+            <button class="no-button" id="noButton" type="button">Não</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="ending" id="ending" aria-live="polite">
+        <div class="ending__glow"></div>
+        <div class="credits-roll">
+          <p class="credits-small">WALISSON PICTURES</p>
+          <p class="credits-small">EM ASSOCIAÇÃO COM UMA QUINTA-FEIRA MUITO BEM PLANEJADA</p>
+          <div class="credit-gap"></div>
+          <p class="credits-label">CONVIDADA DE HONRA</p>
+          <h2>ALANIS</h2>
+          <p class="credits-and">INGRESSOS E LOGÍSTICA</p>
+          <h2>WALISSON</h2>
+          <div class="credit-gap"></div>
+          <p class="credits-label">EM</p>
+          <h3>A ODISSEIA</h3>
+          <p class="credits-date">16.07.2026 — 20H40<br />UCI SHOPPING NEW YORK</p>
+          <div class="credit-gap small"></div>
+          <div class="credits-grid">
+            <span><small>DIREÇÃO</small>O acaso</span>
+            <span><small>ROTEIRO</small>Uma boa ideia</span>
+            <span><small>TRILHA SONORA</small>Ironic</span>
+            <span><small>EFEITOS ESPECIAIS</small>Algumas tulipas</span>
+          </div>
+          <div class="credit-gap small"></div>
+          <span class="tulip ending-tulip" aria-hidden="true"><span class="tulip__flower"><i></i><b></b><em></em></span><span class="tulip__stem"></span><span class="tulip__leaf tulip__leaf--left"></span><span class="tulip__leaf tulip__leaf--right"></span></span>
+          <p class="final-line">Missão aceita.<br /><strong>Agora só falta não perder os trailers.</strong></p>
+          <p class="the-end">FIM <span>— cena pós-créditos: procurar comida —</span></p>
+        </div>
+      </section>
+
+      <div id="musicMount"></div>
+      <button class="music-dock" id="musicButton" type="button" aria-label="Pausar trilha sonora" hidden>
+        <span class="music-icon" id="musicIcon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span><small>TRILHA SONORA</small><strong>Ironic</strong></span>
+        <span class="music-state" id="musicState">ON</span>
+      </button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
